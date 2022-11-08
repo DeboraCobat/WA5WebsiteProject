@@ -1,0 +1,1148 @@
+@charset "utf-8";
+
+/* Develop for 
+    Developed by: Arjun Dhakal, Debora Bastos, Mihai Coanda
+    Date: Nov 3, 2022 
+*/
+
+html,
+body {
+  font-family: montserrat, arial, serif;
+  background-color: #071b1b;
+  height: 100%;
+  margin: 0;
+}
+
+/* ####################################################################################################*/
+p {
+  font-family: montserrat, arial, serif;
+  color: #80b991;
+}
+
+.dark {
+  color: #071b1b;
+}
+
+.white {
+  color: #fff;
+}
+
+h1.title {
+  position: absolute;
+  font-family: montserrat, arial, serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #ffffff;
+  top: 35%;
+  width: 85%;
+  padding-left: 10%;
+}
+
+h1.section_title {
+  font-family: montserrat, arial, serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #80b991;
+  width: 85%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+h1.section_subtitle {
+  font-family: montserrat, arial, serif;
+  font-size: 3em;
+  font-weight: 700;
+  color: #80b991;
+}
+
+h1.subtitle {
+  position: absolute;
+  font-family: montserrat, arial, serif;
+  font-size: 2em;
+  font-weight: 300;
+  color: #ffffff;
+  top: 50%;
+  width: 85%;
+  padding-left: 10%;
+}
+
+h1.CTA {
+  font-family: montserrat, arial, serif;
+  font-size: 3em;
+  font-weight: 700;
+  color: #071b1b;
+  width: 85%;
+}
+
+p.CTA {
+  font-family: montserrat, arial, serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #071b1b;
+  width: 95%;
+}
+
+.footer_text {
+  font-family: montserrat, arial, serif;
+  color: #071b1b;
+}
+
+.footer {
+  margin-top: 3px;
+}
+
+/*-----------------------------------------------------------HERO section--------------------------------------------------*/
+#hero_bg {
+  background-image: url("../image/hero_image.jpg");
+  padding: 50px;
+  /* Full height */
+  height: 100%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------------------------------------nav_container ----------*/
+#nav_container {
+  margin: 0;
+  height: 90px;
+  background-color: #071b1b;
+}
+
+#nav_container img {
+  width: 180px;
+  float: left;
+  margin: 10px 20px 10px 20px;
+}
+
+#nav_container ul {
+  margin: 25px 20px 0 0;
+  float: right;
+}
+
+#top-nav {
+  padding: 10px 20px 0 20px;
+  height: 25px;
+}
+
+/* ------------------------------styling the list items inside the top-nav */
+#top-nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+#top-nav ul li a {
+  color: #80b991;
+  margin: 5px;
+  padding: 5px;
+}
+
+#top-nav ul li a:link {
+  color: #80b991;
+  text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+  color: #071b1b;
+  background-color: #80b991;
+  padding: 5px 5px;
+}
+
+#top-nav ul li a:active {
+  color: #071b1b;
+  background-color: #80b991;
+  padding: 5px 5px;
+}
+
+/* -----------------------------------------------------------------hero_container */
+#hero_container {
+  margin: 10px 0 0 0;
+}
+
+#hero_container img {
+  width: 1700px;
+  object-fit: cover;
+}
+/* -----------------------------------------------------------------dotted line */
+.dotted_line {
+  margin: 20px auto;
+  width: 50px;
+  padding: 0 5px;
+  border-top: 5px dotted gray;
+  clear: both;
+}
+/* -----------------------------------------------------------------upcoming_container8*/
+
+#carousel {
+  width: 90%;
+  margin: auto;
+}
+
+#carousel_element {
+  margin: auto;
+}
+
+#left_arrow {
+  margin: 150px 0;
+  float: left;
+}
+
+#left_arrow img {
+  width: 75px;
+  vertical-align: middle;
+}
+
+#right_arrow {
+  margin: 150px 0;
+  float: right;
+}
+
+#right_arrow img {
+  width: 75px;
+  vertical-align: middle;
+}
+
+#upCourse1 {
+  background-image: url("../Image/up_course1.jpg");
+  /* Full height */
+  height: 400px;
+  width: 400px;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 3%;
+  display: inline-block;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+#upCourse1:hover {
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+#upCourse2 {
+  background-image: url("../Image/up_course2.jpg");
+  /* Full height */
+  height: 400px;
+  width: 400px;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 3%;
+  display: inline-block;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+#upCourse2:hover {
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+#upCourse3 {
+  background-image: url("../Image/up_course3.jpg");
+  /* Full height */
+  height: 400px;
+  width: 400px;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 3%;
+  display: inline-block;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+#upCourse3:hover {
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+.course_detail {
+  display: inline-block;
+}
+
+.start_date {
+  height: 100px;
+  width: 100px;
+  background-color: #071b1b;
+  padding: 3%;
+  margin: 55% 0 5% 5%;
+  display: inline-block;
+}
+
+.day {
+  font-family: montserrat, arial, serif;
+  color: #80b991;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 0em;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.month {
+  font-family: montserrat, arial, serif;
+  color: #80b991;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 0em;
+  text-align: center;
+}
+
+.course_title {
+  font-family: montserrat, arial, serif;
+  /*	color:#80B991;*/
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  height: 100px;
+  width: 100px;
+  padding: 3%;
+  margin: 55% 0 5% 5%;
+  display: inline-block;
+}
+
+.slide_control {
+  display: block;
+  margin: 3% auto;
+}
+
+/* -----------------------------------------------------------------callout_container */
+#callout_container {
+  padding: 2% 6%;
+  display: inline-block;
+  background-color: #80b991;
+}
+
+#callout_leftbar {
+  max-width: 80%;
+  float: left;
+  display: inline;
+}
+
+#callout_rightbar {
+  display: inline;
+  float: right;
+}
+
+.btn_signup {
+  margin: 80px 0 0 20px;
+  padding: 25px 60px;
+  font-size: large;
+  font-weight: 500;
+  font-family: montserrat, arial, serif;
+  font-weight: 500;
+  border: solid;
+  border-width: thick;
+  color: #071b1b;
+  background-color: #80b991;
+  border-radius: 0.75rem;
+  float: right;
+}
+
+.btn_signup:hover {
+  color: #80b991;
+  background-color: #071b1b;
+}
+
+/* -----------------------------------------------------------------discover more course */
+#all_course_container {
+  background-color: #1a4345;
+  /*	width:100%;*/
+  padding: 2%;
+}
+
+table.all_course_table {
+  border-spacing: 40px 0px;
+  margin: 0 auto;
+  padding: 3%;
+  color: #071b1b;
+}
+
+#text_cell {
+  width: 300px;
+  vertical-align: text-top;
+}
+
+#discover_more {
+  vertical-align: text-top;
+  color: blue;
+}
+
+.course_image img {
+  width: 300px;
+  height: 300px;
+}
+
+.course_bullet {
+  margin: 2px;
+  padding: 10px;
+  list-style-type: square;
+}
+
+.read_more {
+  margin: 20px 0 0 0;
+  padding: 10px;
+  font-size: large;
+  font-weight: 500;
+  font-family: montserrat, arial, serif;
+  font-weight: 500;
+  border: solid;
+  border-width: medium;
+  color: #071b1b;
+  background-color: #80b991;
+  border-radius: 0.75rem;
+  list-style-type: none;
+}
+
+.read_more:hover {
+  color: #80b991;
+  background-color: #071b1b;
+}
+
+td.description {
+  padding: 2%;
+  background-color: #80b991;
+}
+
+/* -----------------------------------------------------------------footer */
+
+footer {
+  background-color: #80b991;
+  padding: 1% 12%;
+  height: 150px;
+  color: #071b1b;
+}
+
+#footer_left {
+  margin: 0 150px 0 0;
+  float: left;
+}
+
+#footer_middle {
+  margin: 0;
+  text-align: left;
+  float: left;
+}
+
+#footer_right {
+  text-align: right;
+  float: right;
+}
+
+#sec_nav {
+  margin: 0;
+  display: inline-block;
+  font-size: small;
+  text-align: left;
+}
+
+#sec_naviagtion2 li {
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+  font-size: small;
+  text-align: left;
+}
+
+.sec_nav_item {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+.sec_nav_item a {
+  font-family: montserrat, arial, serif;
+  font-size: 1em;
+  color: #071b1b;
+  text-decoration: none;
+}
+
+.sec_nav_item a:hover {
+  font-family: montserrat, arial, serif;
+  font-size: 1em;
+  color: #071b1b;
+  text-decoration: underline;
+}
+
+#social_media_icon1 img {
+  width: 42px;
+}
+
+#social_media_icon2 img {
+  width: 42px;
+}
+
+#social_media_icon3 img {
+  width: 42px;
+}
+
+#social_media_icon4 img {
+  width: 42px;
+}
+
+#footer_bottom {
+  padding: 1px;
+  text-align: center;
+  clear: both;
+  background-color: #071b1b;
+  color: #80b991;
+  width: 100% !important;
+}
+
+/* -----------------------------------------------------------------footer *
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ ABOUT PAGE -----------------------------------------------------------------*/
+#about_container {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #d1eec0;
+}
+#about_top_container {
+  margin: 10px 0 0 0;
+}
+#about_top_left {
+  width: 700px;
+  margin: 10px 0;
+  background-color: #427772;
+  float: left;
+}
+
+#about_top_mid {
+  margin: 10px 50px;
+  float: left;
+}
+
+#about_top_mid img {
+  height: 340px;
+  width: 450px;
+}
+
+#about_top_right {
+  margin: 10px 0;
+  float: right;
+}
+#about_top_right img {
+  height: 340px;
+  width: 450px;
+}
+
+#contact_container {
+  height: 250px;
+  width: 1700px;
+  background-color: #427772;
+}
+
+#contact {
+  text-align: center;
+  clear: both;
+}
+
+#contact_container img {
+  margin: 0 auto;
+  width: 100px;
+}
+
+#contact_container p {
+  text-align: center;
+}
+
+#testimonials img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ COURSE PAGE -----------------------------------------------------------------*/
+
+#course_container header {
+  background-color: #80b991;
+}
+
+#course_container {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+/*-----------------------------------------*/
+
+.hero_container {
+  margin: 10px 0 0 0;
+}
+
+#course1_hero_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#course1_hero_bg {
+  background-image: url("../Image/datascience_hero.jpg");
+  padding: 50px;
+
+  /* Full height */
+  height: 50%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;
+}
+
+#course2_hero_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#course2_hero_bg {
+  background-image: url("../Image/data_analysis_hero.png");
+  padding: 50px;
+  /* Full height */
+  height: 50%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;
+}
+
+#course3_hero_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#course3_hero_bg {
+  background-image: url("../Image/web_development_hero.jpg");
+  padding: 50px;
+  /* Full height */
+  height: 50%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;
+}
+
+#course4_hero_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#course4_hero_bg {
+  background-image: url("../Image/fsd_hero.jpg");
+  padding: 50px;
+  /* Full height */
+  height: 50%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;
+}
+
+#course5_hero_bg img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#course5_hero_bg {
+  background-image: url("../Image/fsd_hero.jpg");
+  padding: 50px;
+  /* Full height */
+  height: 50%;
+  position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px #071b1b80;
+  background-attachment: fixed;
+}
+
+/* November 7 Debora's Version */
+/* Starting Header Section ---------------------------------------- */
+
+#course_top_left {
+  margin: 0;
+  width: 30%;
+  height: 550px;
+  background-color: #071b1b;
+  float: left;
+}
+
+#course_top_right {
+  margin: 0;
+  width: 70%;
+  height: 550px;
+  background-color: #071b1b;
+  float: left;
+  padding-top: 2%;
+}
+
+#table_imp_date {
+  border-spacing: 40px 25px;
+  font-family: montserrat, arial, serif;
+  color: #80b991;
+}
+
+#table_overview {
+  border-spacing: 125px 40px;
+  font-family: montserrat, arial, serif;
+  padding: 0 2%;
+  color: #80b991;
+}
+
+.date_col {
+  padding: 10px 25px;
+  font-weight: bolder;
+  word-wrap: normal;
+  font-family: montserrat, arial, serif;
+}
+
+.tbl_heading {
+  text-align: center;
+}
+
+/* Starting Mid Section ---------------------------------------- */
+
+#course_mid_left {
+  width: 38%;
+  height: 645px;
+  background-color: #80b991;
+  float: left;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+#course_mid_right {
+  width: 60%;
+  height: 683px;
+  background-color: #80b991;
+  float: right;
+}
+
+.prog_col {
+  column-width: 100px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 5px;
+}
+
+.title_col {
+  column-width: 400px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 5px;
+}
+.hours_col {
+  column-width: 100px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.tbl_caption {
+  text-align: center;
+  padding: 1%;
+}
+
+#course_mid_right h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+/* Starting Success of Rate and Fees Section ---------------------------------------- */
+
+#course_3rdLeft {
+  margin: auto;
+  width: 32%;
+  height: 300px;
+  background-color: #1a4345;
+  float: right;
+}
+
+#course_3rdright {
+  margin: auto;
+  width: 68%;
+  height: 300px;
+  background-color: #1a4345;
+  float: left;
+}
+
+#table_success {
+  border-spacing: 75px 10px;
+  font-family: montserrat, arial, serif;
+  text-align: center;
+  word-wrap: normal;
+  color: #d1eec0;
+  padding: 45px 60px;
+  margin: auto;
+  display: flex;
+}
+
+#table_success tr:first-child td,
+#table_success tr:nth-child(3) td:nth-child(2) {
+  font-size: 50px;
+}
+
+#table_success tr:first-child td:first-child,
+#table_success tr:nth-child(3) td:first-child {
+  font-size: 30px;
+}
+
+#table_success tr:nth-child(3) td:nth-child(3),
+#table_success tr:nth-child(2),
+#table_success tr:nth-child(4) {
+  font-weight: 100;
+}
+
+#table_fee {
+  font-family: montserrat, arial, serif;
+  text-align: center;
+  color: #d1eec0;
+}
+
+#table_fee caption {
+  font-size: 30px;
+}
+
+#table_fee tbody {
+  font-size: 16px;
+  text-align: left;
+}
+
+#table_fee tbody tr td:first-child {
+  font-size: 20px;
+}
+
+#table_fee tbody tr td:nth-child(2) {
+  font-weight: 100;
+  padding-left: 13px;
+}
+
+/* Starting Call Out Container Section ---------------------------------------- */
+
+.btn_enroll {
+  margin: 0% 7.5% 2%;
+  padding: 25px 60px;
+  font-size: large;
+  font-weight: 500;
+  font-family: montserrat, arial, serif;
+  font-weight: 500;
+  border: solid;
+  border-width: thick;
+  color: #071b1b;
+  background-color: #e6802d;
+  border-radius: 0.75rem;
+  float: right;
+}
+
+.btn_enroll:hover {
+  color: #80b991;
+  background-color: #071b1b;
+}
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ FAQ PAGE -----------------------------------------------------------------*/
+#faq_container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#faq_table {
+  margin: 10px auto;
+  padding: 0 5% 10%;
+  background-color: #80b991;
+}
+
+#faq_table_heading {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+}
+/* ==============================================================================================================================================
+ ---------------------------------------------------------------Form LogIn Page -----------------------------------------------------------------*/
+
+#login_container {
+  margin: 100px auto;
+  width: 350px;
+  height: 250px;
+}
+
+.form_logo {
+  margin: 10px 0;
+  width: 150px;
+}
+
+#form_login {
+  background-color: #d1eec0;
+}
+
+#login_container table {
+  margin: 2px 0;
+  padding: 2px 2px;
+  border-spacing: 10px;
+  font-size: large;
+}
+
+#btn_go_back {
+  margin: 0 0 0 115px;
+  padding: 2px 10px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: grey;
+  color: white;
+  border-radius: 2rem;
+  float: left;
+  display: inline;
+}
+
+#btn_login {
+  margin: 0 0 0 20px;
+  padding: 2px 10px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: grey;
+  color: aliceblue;
+  border-radius: 2rem;
+  float: left;
+}
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------Massage LogIn Completed Page ---------------------------------------------------------*/
+#login_complete_container {
+  margin: 100px auto;
+  width: 380px;
+  height: 250px;
+}
+
+#login_complete_container form {
+  font-weight: bold;
+  background-color: #d1eec0;
+}
+
+#go_to_home {
+  margin: 20px 0 0 185px;
+  padding: 2px 5px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: grey;
+  color: aliceblue;
+  border-radius: 2rem;
+}
+/* ==============================================================================================================================================
+ ---------------------------------------------------------------Form Enroll Page ---------------------------------------------------------------*/
+
+#register_container {
+  margin: 100px auto;
+  width: 500px;
+  height: 500px;
+}
+
+#form_register {
+  background-color: #80b991;
+}
+
+#personal_info {
+  margin: 2px 0;
+  padding: 2px 2px;
+  border-spacing: 10px;
+  font-size: large;
+}
+
+#fld_class_mode {
+  margin: 2px 0;
+  padding: 10px 2px;
+  width: 215px;
+  border-spacing: 10px;
+}
+
+#fld_class_mode legend {
+  font-size: large;
+}
+
+#fld_availability {
+  margin: 2px 0;
+  padding: 10px 2px;
+  width: 215px;
+}
+
+#fld_availability legend {
+  font-size: large;
+}
+
+#fld_interested {
+  margin: 10px 0;
+  padding: 2px 2px;
+  width: 445px;
+  border-spacing: 10px;
+}
+
+#fld_interested legend {
+  font-size: large;
+}
+
+#btn_reset {
+  margin: 20px 0 0 20px;
+  padding: 2px 20px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: grey;
+  color: aliceblue;
+  border-radius: 2rem;
+  float: left;
+}
+
+#btn_register {
+  margin: 20px 0 0 20px;
+  padding: 2px 10px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: rgb(12, 238, 42);
+  color: rgb(12, 5, 2);
+  border-radius: 2rem;
+  float: left;
+}
+
+#btn_cancel {
+  margin: 20px 0 0 150px;
+  padding: 2px 13px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: rgb(233, 146, 146);
+  color: white;
+  border-radius: 2rem;
+  float: left;
+  display: inline;
+}
+
+#tbl_interested {
+  margin: 2px 0;
+  padding: 2px 2px;
+  border-spacing: 10px;
+}
+
+/* ==============================================================================================================================================
+ ----------------------------------------------------------------- LogIn Completed Page ---------------------------------------------------------*/
+#register_complete_container {
+  margin: 100px auto;
+  width: 380px;
+  height: 250px;
+}
+
+#register_complete_container img {
+  margin: 10px 0;
+  width: 150px;
+}
+
+#register_complete_container form {
+  background-color: #80b991;
+}
+
+#complete_msg {
+  line-height: 30px;
+}
+
+#btn_close {
+  margin: 25px 140px 5px;
+  padding: 2px 12px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: grey;
+  color: aliceblue;
+  border-radius: 2rem;
+}
+
+/* ==============================================================================================================================================
+---------------------------------------------------------------Form Sign Up Page ---------------------------------------------------------------*/
+#enquiry_container {
+  margin: 100px auto;
+  width: 590px;
+  height: 700px;
+}
+
+#form_enquiry {
+  margin: 2px auto;
+  background-color: #80b991;
+}
+
+#form_enquiry table {
+  margin: 2px 10px;
+  padding: 2px 2px;
+  border-spacing: 30px;
+}
+
+#btn_send {
+  margin: 0 0 0 20px;
+  padding: 2px 10px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: #071b1b;
+  color: white;
+  border-radius: 2rem;
+  float: left;
+}
+
+#btn_cancel_enquiry {
+  margin: 0 0 0 190px;
+  padding: 2px 45px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: #071b1b;
+  color: white;
+  border-radius: 2rem;
+  float: left;
+  display: inline;
+}
+
+/* ==============================================================================================================================================
+----------------------------------------------------------------- Sign Up Completed Page ---------------------------------------------------------*/
+#signup_complete_container {
+  margin: 100px auto;
+  width: 380px;
+  height: 250px;
+}
+
+#signup_complete_container img {
+  margin: 10px 0;
+  width: 150px;
+}
+
+#signup_complete_container form {
+  background-color: #80b991;
+}
+
+#complete_msg {
+  line-height: 30px;
+}
+
+#signup_complete_container #btn_close {
+  margin: 25px 140px 5px;
+  padding: 2px 12px;
+  border-spacing: 10px;
+  font-size: large;
+  background-color: #071b1b;
+  color: white;
+  border-radius: 2rem;
+}
